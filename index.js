@@ -26,7 +26,7 @@ async function getBg(cond){
 
 // Get The Weather
 async function getWeather(loc){
-    var response = await fetch(`http://api.weatherapi.com/v1/current.json?key=45cdabc747ea403da48231403231109&q=${loc}`,{mode:'cors'})
+    var response = await fetch(`https://api.weatherapi.com/v1/current.json?key=45cdabc747ea403da48231403231109&q=${loc}`,{mode:'cors'})
     await console.log(response)
     if (response['status']>=400){
         alert('Invalid Location')
