@@ -1,5 +1,5 @@
 # Weather-App
-A web application that gives you the weather of any location you want.
+A web application that gives you the weather of any location you want to know.
 
 The web application has used the API: WeatherAPI (https://www.weatherapi.com/) and is based on using the core functionalities of async/await for proper functionality.
 
